@@ -25,8 +25,12 @@ SECRET_KEY = 'django-insecure-qjf3@2bys85ki0fhlb$jv#eyr^b8i-fxc!m&rq&e0k9=gcq&4y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    'app.recipe-app-api-2.orb.local',
+    'localhost',
+    '127.0.0.1',
+    '[::1]',
+]
 
 # Application definition
 
